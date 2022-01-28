@@ -35,7 +35,7 @@ Please give a brief review of the 3rd party libraries you used and how/ why you'
 Please fill in the following table with the technologies you used in order to work at your application. Feel free to add more rows if you want us to know about anything else you used.
 | Name | Choice |
 | ------ | ------ |
-| Operating system (OS) | Windows |
+| Operating system (OS) | Windows 10 Home |
 | Database  | MySQL 5.7 |
 | Web server| Wampserver 3.1.0 |
 | PHP | 7.1.9 |
