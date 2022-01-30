@@ -33,9 +33,9 @@ In this section, please provide a brief overview of the design of your applicati
 For each of the following functionalities, please tick the box if you implemented it and describe its input and output in your application:
 
 [x] Brew coffee \
-[ ] Create programme \
+[x] Create programme \
 [ ] Delete programme \
-[ ] Book a programme 
+[x] Book a programme 
 
 ##### Business rules
 Please highlight all the validations and mechanisms you identified as necessary in order to avoid inconsistent states and apply the business logic in your application.
@@ -60,11 +60,15 @@ In this section, please list the steps and/ or tools you've used in order to tes
 In this section, please let us know what is your opinion about this experience and how we can improve it:
 
 1. Have you ever been involved in a similar experience? If so, how was this one different?
-2. Do you think this type of selection process is suitable for you?
+--> No, I didn't. All the pasts recruiting processes involved an technical test, for only 2-3 hours.
+2. Do you think this type of selection process is suitable for you? 
+-->Yes, I liked!
 3. What's your opinion about the complexity of the requirements?
+--> Medium comlexity
 4. What did you enjoy the most?
 5. What was the most challenging part of this anti hackathon?
 6. Do you think the time limit was suitable for the requirements?
-7. Did you find the resources you were sent on your email useful?
+-->Definetly!
+7. Did you find the resources you were sent on your email useful? --> Yes
 8. Is there anything you would like to improve to your current implementation?
 9. What would you change regarding this anti hackathon?
