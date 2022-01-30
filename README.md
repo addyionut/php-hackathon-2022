@@ -14,8 +14,20 @@ You have estimated it takes 4 weeks to build this solution. You have 3 days. Goo
 ## Technical documentation
 ### Data and Domain model
 In this section, please describe the main entities you managed to identify, the relationships between them and how you mapped them in the database.
+
+1. Activities - contains the activities names (Prymary key), the room where each activity run, the period of time it runs, and the maximum number of participants allowed for each one.
+
+2. Bookings - contains the username, the CNP of the user (it will be the Primary Key), the activity booked, the time interval.  
+
+3. Users and Admins - contains the username and a CNP number
+
+
 ### Application architecture
 In this section, please provide a brief overview of the design of your application and highlight the main components and the interaction between them.
+
+--> An user can Log in on the platform to make a booking. He can select an activity, and will be displayed on the screen the available times for this activity. Otherwise, the user can select the preferred time first, when he want to do an activity, and will be displayed on the screen the available activities in the related period of time. He can select the preferred time (or the activity), and submit the form. All these details are saved in a table on the database. He will see the booking details on the screen. 
+
+
 ###  Implementation
 ##### Functionalities
 For each of the following functionalities, please tick the box if you implemented it and describe its input and output in your application:
