@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Health Center Platform</title>
+	</head>
+	<body>
+		<h1>HEALTH CENTER PLATFORM</h1>
+		<h2>Add an activity</h2>
+		<form action="activities.php" method="post">
+            <p>
+                <label for="activities">Select an activity:</label>
+                <select id="activity" name="activity_name">
+                    <option value="">--Please choose an option--</option>
+                    <option>Zumba</option>
+                    <option>Pilates</option>
+                    <option>Aerobic</option>
+                    <option>Kangoo Jumps</option>
+                    <option>Yoga</option>
+                </select>
+			</p>
+			<p>
+				<label for="room">
+                    <span>Room: </span>
+				</label>
+				<input type="text" id="room" name="room">
+			</p>
+            <p>
+				<label for="start_time">Choose a start time for this activity:</label>
+				<input type="datetime-local" id="start_time"
+     			name="start_time" value="2022-01-29T10:00">
+            </p>
+            <p>
+				<label for="end_time">Choose a end time for this activity:</label>
+				<input type="datetime-local" id="end_time"
+     			name="end_time" value="2022-01-29T10:00">
+            </p>
+            <p>
+				<label for="participants">
+                    <span>Maximum number allowed: </span>
+				</label>
+				<input type="text" id="participants" name="participants">
+			</p>
+			<p>
+				<button type="submit" name="button">Submit</button>
+			</p>
+		</form>
+	</body>
+</html>
