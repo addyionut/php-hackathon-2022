@@ -10,35 +10,35 @@
 		<form action="appointment.php" method="post">
 			<p>
 				<label for="name">
-				  <span>Name: </span>
-				  <strong><abbr title="required"></abbr></strong>
+				<span>Name: </span>
+				<strong><abbr title="required"></abbr></strong>
 				</label>
 				<input type="text" id="name" name="username">
 			</p>
 			<p>
 				<label for="mail">
-				  <span>CNP: </span>
-				  <strong><abbr title="required"></abbr></strong>
+				<span>CNP: </span>
+				<strong><abbr title="required"></abbr></strong>
 				</label>
 				<input type="text" minlength="13" id="cnp" name="cnp">
 			</p>
 			<p>
-			  <label for="activities">Select an activity:</label>
-			  <select id="activity" name="activity">
-				<option value="">--Please choose an option--</option>
-				<option>Zumba</option>
-				<option>Pilates</option>
-				<option>Aerobic</option>
-				<option>Kangoo Jumps</option>
-				<option>Yoga</option>
-			  </select>
+				<label for="activities">Select an activity:</label>
+			  	<select id="activity" name="activity">
+					<option value="">--Please choose an option--</option>
+					<option>Zumba</option>
+					<option>Pilates</option>
+					<option>Aerobic</option>
+					<option>Kangoo Jumps</option>
+					<option>Yoga</option>
+			  	</select>
 			</p>
-            <p>
+            		<p>
 				<label for="meeting-time">Choose a time for your appointment:</label>
 				<input type="datetime-local" id="meeting_time"
-     			name="meeting_time" value="2022-01-29T10:00"
-      			min="2022-01-29T10:00" max="2022-03-01T22:00">
-            </p>
+     				name="meeting_time" value="2022-01-29T10:00"
+      				min="2022-01-29T10:00" max="2022-03-01T22:00">
+            		</p>
 			<p>
 				<button type="submit" name="button">Submit</button>
 			</p>
