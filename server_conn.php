@@ -6,9 +6,9 @@
 	if (!$conn) {
 		die("Connection failed:".mysqli_connect_error());
 	}
-    else {
-	echo "Connected succesfully";
-    }
-    echo "<br>";
-    //mysqli_close($conn);
+    	else {
+		echo "Connected succesfully";
+    	}
+    	echo "<br>";
+    	//mysqli_close($conn);
 ?>
